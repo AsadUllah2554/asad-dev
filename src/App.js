@@ -1,4 +1,4 @@
-import Home from './Components/Pages/Home';
+
 import { Routes, Route, useNavigate} from "react-router-dom"
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -19,7 +19,7 @@ function App() {
         <Route path="/works" element={<Works />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<ContactMe />} />
-        <Route path="/skills/education" element={<Home/>} /> 
+        <Route path="/skills/education" element={<MainBody/>} /> 
       </Routes>
 
       <Footer />
