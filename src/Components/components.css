@@ -685,7 +685,7 @@ footer > .footer-links > .footer-items > .md-heading{
     }
 
     
-.navbar li{
+    .navbar li{
     margin-left: 10px;
   }
 
@@ -718,5 +718,8 @@ footer > .footer-links > .footer-items > .md-heading{
     .footer-container{
         margin-left: 2rem;
 
+    }
+    .md-heading{
+        text-align: center;
     }
 }
