@@ -52,7 +52,7 @@ function ContactForm(){
 
     <div className="form-container">
         <h1 className='form-heading'>Order your Website now !</h1>
-        <p>Book your order, We will contact you ASAP for further details of the project</p>
+        <p className='form--para'>Book your order, We will contact you ASAP for further details of the project</p>
         <form className="contact-form" onSubmit={sendEmail} ref={form}>
            
             <input type="text"

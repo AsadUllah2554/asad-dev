@@ -110,7 +110,7 @@ function Slider(){
       else if(index === parseInt(sliderData.length)-1){
         setIndex(0)
       }
-      }, 2000);
+      }, 5000);
       return () => clearTimeout(timer);
     }, [index]);
 
